@@ -57,7 +57,7 @@
 
         // create a cube
         var cubeGeometry = new THREE.BoxGeometry(4, 4, 4);
-        var cubeMaterial = new THREE.MeshLambertMaterial({color: 0xFF8000});
+        var cubeMaterial = new THREE.MeshLambertMaterial({color: 0x297ad1});
         var cube = new THREE.Mesh(cubeGeometry, cubeMaterial);
         cube.castShadow = true;
 
