@@ -7,6 +7,7 @@
     <script type="text/javascript" src="../libs/three.js"></script>
     <script type="text/javascript" src="../libs/stats.js"></script>
     <script type="text/javascript" src="../libs/dat.gui.js"></script>
+    
     <style>
         body {
             /* set margin to 0 and overflow to hidden, to go fullscreen */
@@ -14,6 +15,7 @@
             overflow: hidden;
         }
     </style>
+    
 </head>
 <body>
 
@@ -42,7 +44,7 @@
 
         // create the ground plane
         var planeGeometry = new THREE.PlaneGeometry(60, 20);
-        var planeMaterial = new THREE.MeshLambertMaterial({color: 0xffffff});
+        var planeMaterial = new THREE.MeshLambertMaterial({color: 0x29d16f});
         var plane = new THREE.Mesh(planeGeometry, planeMaterial);
         plane.receiveShadow = true;
 
